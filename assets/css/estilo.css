@@ -1,0 +1,399 @@
+/*contrasteeee*/
+.blanco {
+  background-color: #ffffff;
+  color: #000000;
+}
+.negro {
+  background-color: #000000;
+  color: #ffffff;
+}
+.blanco * {
+  color: #000000 !important;
+}
+.negro * {
+  color: #ffffff !important;
+}
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.5s ease;
+}
+.card.negro {
+  background-color: #000000;
+  color: #ffffff;
+}
+.card.negro h5,
+.card.negro p {
+  color: #ffffff;
+}
+.blanco .texto-contacto {
+  color: black;
+}
+
+.negro .texto-contacto {
+  color: white;
+}
+
+/*fuenteeee*/
+.small-letras{
+  font-size: 8px;
+}
+.medium-letras{
+  font-size: 12px;
+}
+.large-letras{
+  font-size: 16px;
+}
+
+
+/*botones de fuente y contraste de la pagina*/
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.top-buttons button {
+  margin-left: 10px;
+}
+
+
+/* encabezado */
+header {
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  /* menú de navegación */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #1bf0a2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    color: #000000;
+  }
+
+/* la barra de navegación */
+
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .navbar-brand img {
+    margin-left: 10px; 
+    width: 40px; 
+  }
+
+  .navbar-brand:hover {
+    color: #FFC107;
+  }
+  
+  .nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #FFC107;
+  }
+  
+  .navbar-toggler {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+  }
+  
+  #home {
+    background-image: url('https://scontent.flsc3-1.fna.fbcdn.net/v/t39.30808-6/319045568_560943926042369_8183974657477045144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZhYc1ntp6o0AX-D-F4c&_nc_ht=scontent.flsc3-1.fna&oh=00_AfA9YApWeY0XvVQZ9v-9Ys3JYAsBgmxNKvE8irXMnLZBZw&oe=6499AED4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif'
+  }
+
+  /* acerca de nosotros*/
+  #home h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #home p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  #home a {
+    font-size: 1.2rem;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff8c00;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #home a:hover {
+    background-color: #fff;
+    color: #ff8c00;
+  }
+
+  #about {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px #000;
+  }
+  
+  #about p {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
+  
+  #about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #000;
+  }
+  #about img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  /* estilos para servicios */
+
+#servicios {
+    background-color: #f8f9fa;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#servicios h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+  
+/* galería */
+#Galeria {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  #Galeria h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  #Galeria .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #Galeria .col-lg-4 col-md-6 col-sm-12 {
+    margin-bottom: 30px; 
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+  
+  #Galeria a img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #Galeria a:hover img {
+    transform: scale(1.1);
+  }
+
+
+
+/* estilo para el contacto */
+.contacto {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+
+.contacto form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contacto label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto input[type="tel"],
+.contacto select,
+.contacto textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contacto .form-radio {
+  display: flex;
+  align-items: center;
+}
+
+.contacto .form-radio label {
+  margin-right: 10px;
+}
+
+.contacto .form-radio input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: #484a48;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #484a48;
+}
+
+
+.contacto .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+ 
+
+
+
+/* estilo para los iconos */
+.mt-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-4 a {
+  width: 10px;
+  height: 50px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+  transition: transform 0.3s ease;
+}
+
+.mt-4 a:hover {
+    transform: scale(1.2);
+}
+#contact img {
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+#contact span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+/*jss*/
+.error-input {
+  border: 1px solid red;
+}
+
+.error-message {
+  font-size: 12px;
+  color: red;
+}
+
